@@ -1,0 +1,19 @@
+Risultati di robustezza per k_runs_linear_1layer_lowpar_02 su MNIST
+Parametri totali: 19,364
+
+--- Dati Puliti ---
+Test Loss: 0.1545, Accuracy: 0.9618, F1: 0.9574
+
+--- Rumore Gaussiano ---
+Varianza 0.10 -> Accuracy: 0.8356, F1: 0.8208
+Varianza 0.20 -> Accuracy: 0.5927, F1: 0.5461
+Varianza 0.30 -> Accuracy: 0.3938, F1: 0.3303
+Varianza 0.40 -> Accuracy: 0.2749, F1: 0.2124
+Varianza 0.50 -> Accuracy: 0.2011, F1: 0.1480
+
+--- Rumore Salt & Pepper ---
+Percentuale 10% -> Accuracy: 0.6376, F1: 0.6155
+Percentuale 20% -> Accuracy: 0.4088, F1: 0.3630
+Percentuale 30% -> Accuracy: 0.2834, F1: 0.2337
+Percentuale 40% -> Accuracy: 0.2105, F1: 0.1611
+Percentuale 50% -> Accuracy: 0.1592, F1: 0.1118

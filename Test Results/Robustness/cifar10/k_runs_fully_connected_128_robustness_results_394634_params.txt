@@ -1,0 +1,19 @@
+Risultati di robustezza per k_runs_fully_connected_128 su CIFAR10
+Parametri totali: 394,634
+
+--- Dati Puliti ---
+Test Loss: 1.6335, Accuracy: 0.5039, F1: 0.4824
+
+--- Rumore Gaussiano ---
+Varianza 0.10 -> Accuracy: 0.4884, F1: 0.4671
+Varianza 0.20 -> Accuracy: 0.4508, F1: 0.4279
+Varianza 0.30 -> Accuracy: 0.3990, F1: 0.3755
+Varianza 0.40 -> Accuracy: 0.3656, F1: 0.3428
+Varianza 0.50 -> Accuracy: 0.3222, F1: 0.2988
+
+--- Rumore Salt & Pepper ---
+Percentuale 10% -> Accuracy: 0.4610, F1: 0.4376
+Percentuale 20% -> Accuracy: 0.4062, F1: 0.3811
+Percentuale 30% -> Accuracy: 0.3647, F1: 0.3411
+Percentuale 40% -> Accuracy: 0.3021, F1: 0.2787
+Percentuale 50% -> Accuracy: 0.2568, F1: 0.2325

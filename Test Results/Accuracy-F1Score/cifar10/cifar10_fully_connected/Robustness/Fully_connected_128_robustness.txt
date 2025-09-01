@@ -1,0 +1,16 @@
+Normal:
+Test Loss: 1.4661, Test Accuracy: 0.5208, Test F1: 0.4984
+Gaussian Noised:
+Variance 0.05 -> Accuracy: 0.5171, F1: 0.4948
+Variance 0.1 -> Accuracy: 0.5048, F1: 0.4845
+Variance 0.2 -> Accuracy: 0.4760, F1: 0.4551
+Variance 0.3 -> Accuracy: 0.4301, F1: 0.4088
+Variance 0.4 -> Accuracy: 0.3785, F1: 0.3562
+Variance 0.5 -> Accuracy: 0.3324, F1: 0.3145
+Salt and Pepper Noised:
+Salt and Pepper 0.05 -> Accuracy: 0.4985, F1: 0.4753
+Salt and Pepper 0.1 -> Accuracy: 0.4802, F1: 0.4575
+Salt and Pepper 0.2 -> Accuracy: 0.4316, F1: 0.4096
+Salt and Pepper 0.3 -> Accuracy: 0.3746, F1: 0.3526
+Salt and Pepper 0.4 -> Accuracy: 0.3212, F1: 0.3018
+Salt and Pepper 0.5 -> Accuracy: 0.2667, F1: 0.2487

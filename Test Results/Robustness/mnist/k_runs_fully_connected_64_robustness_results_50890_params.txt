@@ -1,0 +1,19 @@
+Risultati di robustezza per k_runs_fully_connected_64 su MNIST
+Parametri totali: 50,890
+
+--- Dati Puliti ---
+Test Loss: 0.1548, Accuracy: 0.9717, F1: 0.9686
+
+--- Rumore Gaussiano ---
+Varianza 0.10 -> Accuracy: 0.9169, F1: 0.9063
+Varianza 0.20 -> Accuracy: 0.6898, F1: 0.6582
+Varianza 0.30 -> Accuracy: 0.4749, F1: 0.4250
+Varianza 0.40 -> Accuracy: 0.3303, F1: 0.2660
+Varianza 0.50 -> Accuracy: 0.2524, F1: 0.1774
+
+--- Rumore Salt & Pepper ---
+Percentuale 10% -> Accuracy: 0.6837, F1: 0.6605
+Percentuale 20% -> Accuracy: 0.4456, F1: 0.4055
+Percentuale 30% -> Accuracy: 0.3078, F1: 0.2538
+Percentuale 40% -> Accuracy: 0.2280, F1: 0.1648
+Percentuale 50% -> Accuracy: 0.1794, F1: 0.1098

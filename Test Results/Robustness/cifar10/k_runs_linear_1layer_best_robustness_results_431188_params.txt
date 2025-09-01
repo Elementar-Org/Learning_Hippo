@@ -1,0 +1,19 @@
+Risultati di robustezza per k_runs_linear_1layer_best su CIFAR10
+Parametri totali: 431,188
+
+--- Dati Puliti ---
+Test Loss: 1.8551, Accuracy: 0.5097, F1: 0.4807
+
+--- Rumore Gaussiano ---
+Varianza 0.10 -> Accuracy: 0.5012, F1: 0.4708
+Varianza 0.20 -> Accuracy: 0.4726, F1: 0.4434
+Varianza 0.30 -> Accuracy: 0.4553, F1: 0.4263
+Varianza 0.40 -> Accuracy: 0.4182, F1: 0.3903
+Varianza 0.50 -> Accuracy: 0.3739, F1: 0.3481
+
+--- Rumore Salt & Pepper ---
+Percentuale 10% -> Accuracy: 0.4843, F1: 0.4562
+Percentuale 20% -> Accuracy: 0.4557, F1: 0.4275
+Percentuale 30% -> Accuracy: 0.4124, F1: 0.3864
+Percentuale 40% -> Accuracy: 0.3649, F1: 0.3380
+Percentuale 50% -> Accuracy: 0.3027, F1: 0.2742

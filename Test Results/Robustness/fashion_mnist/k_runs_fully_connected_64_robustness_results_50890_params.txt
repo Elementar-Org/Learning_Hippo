@@ -1,0 +1,19 @@
+Risultati di robustezza per k_runs_fully_connected_64 su FASHION_MNIST
+Parametri totali: 50,890
+
+--- Dati Puliti ---
+Test Loss: 0.3889, Accuracy: 0.8772, F1: 0.8632
+
+--- Rumore Gaussiano ---
+Varianza 0.10 -> Accuracy: 0.8180, F1: 0.7977
+Varianza 0.20 -> Accuracy: 0.6513, F1: 0.6141
+Varianza 0.30 -> Accuracy: 0.4953, F1: 0.4544
+Varianza 0.40 -> Accuracy: 0.3688, F1: 0.3264
+Varianza 0.50 -> Accuracy: 0.2908, F1: 0.2436
+
+--- Rumore Salt & Pepper ---
+Percentuale 10% -> Accuracy: 0.6296, F1: 0.6035
+Percentuale 20% -> Accuracy: 0.4436, F1: 0.4137
+Percentuale 30% -> Accuracy: 0.3186, F1: 0.2834
+Percentuale 40% -> Accuracy: 0.2451, F1: 0.2037
+Percentuale 50% -> Accuracy: 0.1926, F1: 0.1486

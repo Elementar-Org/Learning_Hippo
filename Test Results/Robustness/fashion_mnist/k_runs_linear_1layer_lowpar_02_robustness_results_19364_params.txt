@@ -1,0 +1,19 @@
+Risultati di robustezza per k_runs_linear_1layer_lowpar_02 su FASHION_MNIST
+Parametri totali: 19,364
+
+--- Dati Puliti ---
+Test Loss: 0.3888, Accuracy: 0.8683, F1: 0.8567
+
+--- Rumore Gaussiano ---
+Varianza 0.10 -> Accuracy: 0.8115, F1: 0.7959
+Varianza 0.20 -> Accuracy: 0.6187, F1: 0.5998
+Varianza 0.30 -> Accuracy: 0.4251, F1: 0.3873
+Varianza 0.40 -> Accuracy: 0.2887, F1: 0.2384
+Varianza 0.50 -> Accuracy: 0.2323, F1: 0.1750
+
+--- Rumore Salt & Pepper ---
+Percentuale 10% -> Accuracy: 0.6666, F1: 0.6458
+Percentuale 20% -> Accuracy: 0.4475, F1: 0.4189
+Percentuale 30% -> Accuracy: 0.2982, F1: 0.2560
+Percentuale 40% -> Accuracy: 0.2228, F1: 0.1728
+Percentuale 50% -> Accuracy: 0.1709, F1: 0.1142

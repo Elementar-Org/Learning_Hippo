@@ -1,0 +1,19 @@
+Risultati di robustezza per k_runs_linear_1layer_lowpar_03 su CIFAR100
+Parametri totali: 224,686
+
+--- Dati Puliti ---
+Test Loss: 3.4603, Accuracy: 0.1990, F1: 0.1272
+
+--- Rumore Gaussiano ---
+Varianza 0.10 -> Accuracy: 0.1896, F1: 0.1208
+Varianza 0.20 -> Accuracy: 0.1785, F1: 0.1142
+Varianza 0.30 -> Accuracy: 0.1636, F1: 0.1059
+Varianza 0.40 -> Accuracy: 0.1375, F1: 0.0875
+Varianza 0.50 -> Accuracy: 0.1146, F1: 0.0726
+
+--- Rumore Salt & Pepper ---
+Percentuale 10% -> Accuracy: 0.1823, F1: 0.1183
+Percentuale 20% -> Accuracy: 0.1638, F1: 0.1051
+Percentuale 30% -> Accuracy: 0.1388, F1: 0.0897
+Percentuale 40% -> Accuracy: 0.1057, F1: 0.0685
+Percentuale 50% -> Accuracy: 0.0822, F1: 0.0525

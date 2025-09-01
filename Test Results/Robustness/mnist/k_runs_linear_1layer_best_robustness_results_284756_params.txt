@@ -1,0 +1,19 @@
+Risultati di robustezza per k_runs_linear_1layer_best su MNIST
+Parametri totali: 284,756
+
+--- Dati Puliti ---
+Test Loss: 0.1234, Accuracy: 0.9799, F1: 0.9765
+
+--- Rumore Gaussiano ---
+Varianza 0.10 -> Accuracy: 0.9551, F1: 0.9499
+Varianza 0.20 -> Accuracy: 0.7886, F1: 0.7755
+Varianza 0.30 -> Accuracy: 0.5915, F1: 0.5522
+Varianza 0.40 -> Accuracy: 0.4623, F1: 0.4023
+Varianza 0.50 -> Accuracy: 0.3687, F1: 0.2972
+
+--- Rumore Salt & Pepper ---
+Percentuale 10% -> Accuracy: 0.8092, F1: 0.7970
+Percentuale 20% -> Accuracy: 0.5748, F1: 0.5421
+Percentuale 30% -> Accuracy: 0.4226, F1: 0.3726
+Percentuale 40% -> Accuracy: 0.3248, F1: 0.2643
+Percentuale 50% -> Accuracy: 0.2561, F1: 0.1918
