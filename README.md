@@ -13,7 +13,7 @@ Le attuali reti neurali presentano note limitazioni a causa della loro fragilit�
 
 ---
 <img src="images/NeuronePiramidale.png" alt="Modello compartimentale di un neurone piramidale in Hippo-1" width="600">
-*Rappresentazione del modello a cinque compartimenti per un neurone piramidale di Hippo-1 con le rispettive equazioni di integrazione del segnale. Ogni equazione incorpora il meccanismo di shunting inhibition, dove un segnale eccitatorio $X_i$ è modulato moltiplicativamente da un segnale inibitorio $Y_i$.*
+*Rappresentazione del modello a cinque compartimenti per un neurone piramidale di Hippo-1 con le rispettive equazioni di integrazione del segnale.*
 
 ## L'architettura `Hippo-1`
 L'obiettivo di `Hippo-1` è integrare principi neuroscientifici chiave per superare i limiti dei modelli standard, come gli MLP. L'ispirazione principale viene dalla regione **CA3 dell'ippocampo**, un'area del cervello nota per le sue capacità di auto-associazione e completamento di pattern, che le consentono di ricostruire segnali corretti a partire da input parziali o rumorosi.
